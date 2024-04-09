@@ -1,0 +1,4 @@
+.home {
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #64748b;
+}

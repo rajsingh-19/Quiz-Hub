@@ -1,0 +1,16 @@
+.quizcard-container {
+    width: 25vw;
+    padding: 20px;
+}
+.quizcard-div {
+    width: 22vw;
+    background-color: #e5e5e5;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.quiz-img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    height: 280px;
+}

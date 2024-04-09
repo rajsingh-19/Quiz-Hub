@@ -1,0 +1,104 @@
+/*      reset css    */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*      universal    */
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.dir-row {
+    flex-direction: row;
+}
+.dir-col {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.items-center {
+    align-items: center;
+}
+.text-primary-color {
+    color: #fafafa;
+}
+.heading1 {
+    font-size: 3.5rem;
+}
+.heading2 {
+    font-size: 3rem;
+}
+.heading3 {
+    font-size: 2.5rem;
+}
+.heading4 {
+    font-size: 2rem;
+}
+.heading5 {
+    font-size: 1.5rem;
+}
+.heading6 {
+    font-size: 1rem;
+}
+.text-strike {
+    text-decoration: line-through;
+}
+.text-italic {
+    font-style: italic;
+}
+.text-center {
+    text-align: center;
+}
+.border-none {
+    border: none;
+}
+.outline-none {
+    outline: none;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.hide {
+    display: none;
+}
+.float-r {
+    float: right;
+}
+.float-l {
+    float: left;
+}
+.cursor {
+    cursor: pointer;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.ul {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+.width-100 {
+    width: 100%;
+}
+.width-50 {
+    width: 50%;
+}
+
+
+
+
