@@ -1,5 +1,4 @@
-###Quiz Website
-
+# Quiz Hub
 This is a web application for playing quizzes on various topics. The application is built using React for the frontend, Node.js and Express.js for the backend, and MongoDB for the database.
 
 ##Features :-
@@ -27,12 +26,6 @@ crypto-js (for encryption)
 
 JSON Web Tokens (JWT)
 
-
-
-
-# Quiz Hub
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
