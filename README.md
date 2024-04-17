@@ -30,7 +30,7 @@ JSON Web Tokens (JWT)
 
 
 
-# Getting Started with Create React App
+# Quiz Hub
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
