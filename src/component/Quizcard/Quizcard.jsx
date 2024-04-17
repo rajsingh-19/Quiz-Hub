@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Quizcard = ({ quizcategory }) => {
 
   const {token} = useAuth();
+  // const token = localStorage.setItem("token");
   const navigate = useNavigate();
 
   const { image, subject, description } = quizcategory;

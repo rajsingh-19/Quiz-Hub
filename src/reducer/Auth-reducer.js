@@ -1,5 +1,10 @@
 const authReducer = (state, {type, payload}) => {
     switch(type) {
+        case "INITIAL_STATE":
+            return {
+                ...state,
+                token: payload
+            }
         case "EMAIL":
             return {
                 ...state,
@@ -14,6 +19,11 @@ const authReducer = (state, {type, payload}) => {
             return {
                 ...state,
                 token: payload
+            }
+        case "QUIZCATEGORY":
+            return {
+                ...state,
+                quizCategory: payload
             }
         case "CLEAR_CREDENTIALS":
             return {

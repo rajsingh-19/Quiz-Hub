@@ -1,15 +1,31 @@
-/*      reset css    */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/*      universal    */
-.flex {
-    display: flex;
+.link {
+    text-decoration: none;
+}
+.list-style-none {
+    list-style-type: none;
+}
+.shadow {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.d-block {
+    display: block;
+}
+.sticky {
+    position: sticky;
+}
+.top-0 {
+    top: 0;
 }
 .grid {
     display: grid;
+}
+.flex {
+    display: flex;
 }
 .dir-row {
     flex-direction: row;
@@ -23,32 +39,65 @@
 .items-center {
     align-items: center;
 }
+.p10 {
+    padding: 10px;
+}
+.p-l {
+    padding-left: 20px;
+}
+.p-t {
+   padding-top: 20px;
+}
+.p-r {
+    padding-right: 20px;
+}
+.p-t10 {
+    padding-top: 10px;
+}
+.p-r10 {
+    padding-right: 10px;
+}
+.p-l10 {
+    padding-left: 10px;
+}
+.m-t {
+    margin-top: 20px;
+}
+.m-t10 {
+    margin-top: 10px;
+}
+.heading {
+    font-size: 3.5rem;
+}
+.text {
+    font-size: 3rem;
+}
+.text1 {
+    font-size: 2.5rem;
+}
+.text2 {
+    font-size: 2rem;
+}
+.text3 {
+    font-size: 1.5rem;
+}
+.text4 {
+    font-size: 1rem;
+}
+.text5 {
+    font-size: .75rem;
+}
 .text-primary-color {
     color: #fafafa;
 }
-.heading1 {
-    font-size: 3.5rem;
-}
-.heading2 {
-    font-size: 3rem;
-}
-.heading3 {
-    font-size: 2.5rem;
-}
-.heading4 {
-    font-size: 2rem;
-}
-.heading5 {
-    font-size: 1.5rem;
-}
-.heading6 {
-    font-size: 1rem;
-}
-.text-strike {
+.strike {
     text-decoration: line-through;
 }
-.text-italic {
+.italic {
     font-style: italic;
+}
+.bold {
+    font-weight: bold;
 }
 .text-center {
     text-align: center;
@@ -71,26 +120,17 @@
 .float-l {
     float: left;
 }
+.v-visibility {
+    visibility: visible;
+}
+.h-visibility {
+    visibility: hidden;
+}
 .cursor {
     cursor: pointer;
 }
-.pl-20 {
-    padding-left: 20px;
-}
-.pr-20 {
-    padding-right: 20px;
-}
-.pt-20{
-    padding-top: 20px;
-}
-.pb-20 {
-    padding-bottom: 20px;
-}
-.ul {
-    list-style-type: none;
-}
-.link {
-    text-decoration: none;
+.b-r-10 {
+    border-radius: 10px;
 }
 .width-100 {
     width: 100%;
@@ -98,7 +138,3 @@
 .width-50 {
     width: 50%;
 }
-
-
-
-

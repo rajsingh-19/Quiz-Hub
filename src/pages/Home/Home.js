@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
+import axios from "axios";
 import "./home.css";
 import Navbar from "../../component/Navbar/Navbar";
 import Quizcard from "../../component/Quizcard/Quizcard";
@@ -8,10 +9,9 @@ const Home = () => {
 
     useEffect(() => {
         const quizzes = async () => {
-          let url = "https://quizhub.cyclic.app/api/categoryQuiz"
+          let url = process.env.REACT_APP_CATEGORYQUIZ_API;
           try {
-            const response = await fetch(url);
-            const data = await response.json();
+            const {data}  = await axios.get(url);
             setCategory(data);
             console.log(data);
           } catch (error) {
