@@ -1,33 +1,31 @@
-#Quiz Website
+# Quiz Hub
 This is a web application for playing quizzes on various topics. The application is built using React for the frontend, Node.js and Express.js for the backend, and MongoDB for the database.
 
-#Features
+##Features :-
+
 Users can browse and choose quizzes based on category and subject.
 Authentication and authorization are implemented for users who want to play quizzes.
 After completing a quiz, users can view their results.
 Admin panel allows administrators to manage quizzes, categories, and subjects.
 
-#Technologies Used
+##Technologies Used:
+
 #Frontend:
 React
 React Router
 Context-API (for state management)
 
 #Backend:
+
 Node.js
 Express.js
 MongoDB (with Mongoose ORM)
 crypto-js (for encryption)
 
 #Authentication:
+
 JSON Web Tokens (JWT)
 
-
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
