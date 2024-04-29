@@ -20,7 +20,7 @@ const authReducer = (state, {type, payload}) => {
                 ...state,
                 token: payload
             }
-        case "QUIZCATEGORY":
+        case "CATEGORY":
             return {
                 ...state,
                 quizCategory: payload

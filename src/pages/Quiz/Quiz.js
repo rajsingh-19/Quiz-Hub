@@ -2,11 +2,13 @@ import { Fragment, useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "../../component/Navbar/Navbar";
 import Qna from "../../component/QNA/QNA";
-import {quizCategory, useAuth} from "../../context/Auth-context";
+import {useAuth} from "../../context/Auth-context";
 
 const Quiz = () => {
     const [quiz, setQuiz] = useState([]);
     const { quizCategory } = useAuth();
+    console.log(quizCategory);
+    
 
     useEffect(() => {
         const quizData = async () => {
@@ -25,6 +27,7 @@ const Quiz = () => {
     return (
         <Fragment>
             <Navbar />
+            {/* <Qna /> */}
             {
                 quiz.map((quiz) => {
                     return (

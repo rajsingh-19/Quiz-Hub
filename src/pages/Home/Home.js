@@ -28,7 +28,7 @@ const Home = () => {
               {
                 category.map((category) => 
                 {
-                  return (<Quizcard quizcategory={category} key={category._id} />);
+                  return (<Quizcard quizCategory={category} key={category._id} />);
                 })
               }
             </main>
