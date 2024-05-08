@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom";
 
 const Quizcard = ({ quizCategory }) => {
 
+  const { image, subject, description, category } = quizCategory;
+
   const {token, authDispatch} = useAuth();
   // const token = localStorage.setItem("token");
   const navigate = useNavigate();
-
-  const { image, subject, description, category } = quizCategory;
   
   const handlePlayQuiz = () => {
     if(token) {

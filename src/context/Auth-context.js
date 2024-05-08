@@ -7,10 +7,11 @@ const initialState = {
     email: "",
     password: "",
     token: "",
-    quizCategory: ""
+    quizCategory: "",
 };
 
 const AuthProvider = ({ children }) => {
+    
     useEffect(() => {
         const token = localStorage.getItem("token");
         authDispatch({

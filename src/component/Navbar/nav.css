@@ -1,4 +1,17 @@
 .nav {
-    background-color: #083344;
+    background-color: #f3f4f6;
     height: 4rem;
+}
+.brandname {
+    background-color: #1e40af;
+    border-radius: 10px;
+}
+.brandname:hover {
+    background-color: #1d4ed8;
+}
+.hub-color {
+    color: #ea580c;
+}
+.quiz-color {
+    color: #3b0764;
 }

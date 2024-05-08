@@ -2,7 +2,11 @@ import React from "react";
 import "../QNA/qna.css";
 
 const Qna = ({ quizdata }) => {
-  console.log(quizdata);
+  // const [currentQuiz ] = quizdata;
+  // const {title, quiz} = currentQuiz;
+  // console.log(currentQuiz);
+  // console.log(quizdata);
+
   return (
     <main className="container flex dir-row justify-center items-center">
       <section className="qna-container m-t">

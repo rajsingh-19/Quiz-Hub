@@ -1,0 +1,5 @@
+.main {
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: #e5e7eb; */
+    background-color: #d4d4d4;
+}
