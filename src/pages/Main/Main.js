@@ -17,7 +17,7 @@ const Main = () => {
         const { data } = await axios.get(url);
         setLoader(false);
         setCategory(data);
-        console.log(data);
+        // console.log(data);
       } catch (error) {
         setLoader(false);
         console.log("Error", error);
