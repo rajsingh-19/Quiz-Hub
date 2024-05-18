@@ -8,6 +8,7 @@ const Quizcard = ({ quizCategory }) => {
   const { image, subject, description, category } = quizCategory;
 
   const {token, authDispatch} = useAuth();
+  // const {authDispatch} = useAuth();
   // const token = localStorage.setItem("token");
   const navigate = useNavigate();
   

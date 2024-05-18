@@ -10,7 +10,7 @@ import Testimonial from "../../component/Testimonial/Testimonial";
 import Footer from "../../component/Footer/Footer";
 
 const Home = () => {
-
+//      Home page with different components
   return (
     <div>
       <Navbar />

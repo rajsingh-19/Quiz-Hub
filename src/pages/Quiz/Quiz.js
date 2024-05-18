@@ -11,16 +11,22 @@ const Quiz = () => {
     useEffect(() => {
         const quizData = async () => {
             // let url = process.env.REACT_APP_QUIZ_API;
-            let url = "https://quizhub.cyclic.app/api/quiz";
-            // let url = process.env.REACT_APP_QUIZ_API;
+            let url = process.env.REACT_APP_QUIZ_API;
             try {
-                // const {data: {data}} = await axios.get(url);
-                const { data } = await axios.get(url);
+                const {data: {data}} = await axios.get(url, {
+                    headers: {Authorization: localStorage.getItem("token")}
+                });
+                // const { data } = await axios.get(url);
                 console.log(data);
-                // const filteredData = data.filter(({category}) => category === quizCategory);
-                // setQuiz(filteredData);
+                const filteredData =  data && 
+                data.length> 0 && 
+                data.filter(({category}) => category === quizCategory);
+                if (filteredData && filteredData.length > 0) {
+                    
+                }
+                setQuiz(filteredData);
                 // console.log(data);
-                // console.log(filteredData);
+                console.log(filteredData);
             } catch (error) {
                 console.error(error);
             }

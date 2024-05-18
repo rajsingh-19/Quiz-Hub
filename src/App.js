@@ -8,8 +8,10 @@ import Quiz from "./pages/Quiz/Quiz";
 
 
 function App() {
+  
   return (
     <div className="app">
+{/*       Wrapping and defining pages under routes for navigating    */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/main" element={<Main />} />
