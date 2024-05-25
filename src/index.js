@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
 {/*     Wrapping the parent node so that route can be establish and user can navigate anywhere in the website */}
     <Router>
-{/*     Implementing the authorisation to users for playing the quiz */}
+{/*     Implementing the authorisation to users for playing the quiz          */}
       <AuthProvider>
         <App />
       </AuthProvider>

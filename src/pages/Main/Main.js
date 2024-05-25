@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import axios from "axios";
-import "./Main.css";
 import Navbar from "../../component/Navbar/Navbar";
+import Categorynav from "../../component/Categorynav/Categorynav";
 import Quizcard from "../../component/Quizcard/Quizcard";
 import Loader from "../../component/Loader/Loader";
 import Footer from "../../component/Footer/Footer";
@@ -40,7 +40,8 @@ const Main = () => {
       ) : (
         <>
           <Navbar />
-          <main className="main grid">
+          <Categorynav />
+          <main className="main grid grid-cols-3 gap-x-8 gap-y-4 justify-around items-center justify-items-center bg-neutral-300">
             {category.map((category) => {
               return <Quizcard quizCategory={category} key={category._id} />;
             })}
